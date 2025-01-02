@@ -23,10 +23,16 @@ fun userInfo() {
     val name = readln()
     print("Enter your student ID: ")
     val studentId = readln()
+    print("Enter your GPA: ")
+    val GPA = readln()
+    print("Enter your Age: ")
+    val Age = readln()
 
     println("\nStudent Information:")
     println("Name: $name")
     println("Student ID: $studentId")
+    println("GPA: $GPA" )
+    println("Age: $Age")
     println("---------------------------------------------------")
 }
 
